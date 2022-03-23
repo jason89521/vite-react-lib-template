@@ -16,8 +16,7 @@
     "jsx": "react-jsx",
     "declaration": true,
     "declarationDir": "types",
-    // ignore this directory
-    "outDir": "temp"
+    "emitDeclarationOnly": true
   },
   // entry file
   "include": ["src/index.tsx"],
