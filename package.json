@@ -1,0 +1,39 @@
+{
+  "name": "vite-react-lib-template",
+  "version": "0.0.0",
+  "description": "my library",
+  "keywords": [
+    "your library keywords"
+  ],
+  "files": [
+    "dist",
+    "types"
+  ],
+  "main": "dist/main.umd.js",
+  "module": "dist/main.es.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --mode lib && tsc --project tsconfig.lib.json",
+    "build:demo": "tsc && vite build",
+    "prepare": "yarn build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jason89521/vite-react-lib-template"
+  },
+  "homepage": "https://github.com/jason89521/vite-react-lib-template",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "react-dom": "^17.0.2",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0"
+  },
+  "license": "MIT"
+}
