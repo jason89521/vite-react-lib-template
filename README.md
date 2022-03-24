@@ -2,6 +2,10 @@
 
 Use this template to quickly set up the next react package.
 
+## Files structure
+
+This project assumes the development files are placed in the `dev` directory and the library files are placed in the `src` directory. If you want to use different directory, change the `include` field in `tsconfig.json` and the path of script in `index.html` for development files, and change the `include` field in `tsconfig.lib.json` for library files.
+
 ## Commands
 
 ### `yarn dev`

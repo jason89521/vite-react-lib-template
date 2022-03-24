@@ -9,7 +9,7 @@ const buildDemoConfig: UserConfigExport = {
   build: {
     outDir: 'demo',
   },
-  plugins: [],
+  plugins: [react()],
 };
 
 const buildLibConfig: UserConfigExport = {
